@@ -1,0 +1,4 @@
+# Requirements for narytree package
+# Note: This package requires a C++17 compatible compiler to build
+# No additional Python dependencies are required
+setuptools>=45
