@@ -1,0 +1,40 @@
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.so
+*.dll
+*.dylib
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup and temporary files
+backup_optional_files/
+*.bak
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing artifacts
+.coverage
+.pytest_cache/
+.tox/
+
+# Virtual environments
+venv/
+env/
+ENV/

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "pybind11"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "narytree"
+version = "1.0.0"
+description = "Succinct N-ary Tree with locality optimization"
+authors = [{name = "Nico Liberato", email = "nicoliberatoc@gmail.com"}]
+license = {text = "PSF-2.0"}
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Programming Language :: C++",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[project.urls]
+Homepage = "https://github.com/ncandio/nary_tree_improved"
+Repository = "https://github.com/ncandio/nary_tree_improved.git"
